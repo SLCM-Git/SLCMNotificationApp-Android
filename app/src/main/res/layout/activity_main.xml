@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Listener App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnEnableNotificationListener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Listener in Settings"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnEnableBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Battery Optimisation"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Unknown"
+        android:textSize="16sp" />
+
+</LinearLayout>
